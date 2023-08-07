@@ -14,16 +14,24 @@ import { useInView } from 'react-intersection-observer';
 
 const SectionTwo = () => {
   const [selectedSkill, setSelectedSkill] = useState(null);
+  const [isScrollable, setIsScrollable] = useState(false);
   const bodySelectedSkillRef = useRef(null);
 
   const handleSkillClick = (skill) => {
     setSelectedSkill(skill);
-    document.body.style.overflow = "hidden";
+    document.body.style.overflow = 'hidden';
   };
 
   const handleCloseSkill = () => {
     setSelectedSkill(null);
-    document.body.style.overflow = "auto";
+    if (!isScrollable) {
+      document.body.style.overflow = 'auto';
+    }
+  };
+
+  const handleModalScroll = (event) => {
+    const scrollPosition = event.target.scrollTop;
+    setIsScrollable(scrollPosition > 400); // Activa scroll si la posición es más de 400px
   };
 
   const [ref, inView] = useInView({
@@ -98,10 +106,10 @@ const SectionTwo = () => {
         {skills.map((element, i) => (
           <div key={i} className={styles.item}>
             <div className={styles.buttonExpand}>
-                <MdOutlineExpandMore
+                {/* <MdOutlineExpandMore
                   fill="#47464696"
                   onClick={() => handleSkillClick(element)}
-                />
+                /> */}
             </div>
             {element.icon}
             <div>
@@ -146,7 +154,7 @@ const SectionTwo = () => {
         </div>
         {selectedSkill && (
           <div ref={bodySelectedSkillRef} className={styles.bodySelectedSkill}>
-            <div className={styles.containerSelectedSkill}>
+            <div className={styles.containerSelectedSkill} onScroll={handleModalScroll}>
               <div className={styles.buttonSkill}>
                 <button onClick={handleCloseSkill}>x</button>
               </div>

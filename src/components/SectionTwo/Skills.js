@@ -27,14 +27,14 @@ const skills = [
     icon: <SiSpringboot fontSize="50" fill="#74f37aa2" />,
     date: "Nov 10, 2021",
     learningDescription:
-      "I learned Spring Boot and the MVC design pattern at Egg Academy. During the course, I focused on understanding key concepts of Spring Boot, such as project configuration, controller creation, dependency injection, and the use of annotations, while applying the MVC pattern in web application development. I also worked on practical projects to apply these skills in real-world scenarios. This experience allowed me to become familiar with rapid web application development using the Spring Boot framework and enhance my ability to create robust and efficient applications following the MVC pattern",
+      "I learned Spring Boot and the MVC design pattern at Egg Academy. During the course, I focused on understanding key concepts of Spring Boot, such as project configuration, controller creation, dependency injection, and the use of annotations, while applying the MVC pattern in web application development. I also worked on practical projects to apply these skills in real-world scenarios.",
   },
   {
     title: "SQL",
     icon: <BsDatabase fontSize="50" fill="#74f37aa2" />,
     date: "Dec 05, 2021",
     learningDescription:
-      "I learned SQL during these two bootcamps, at Egg Academy and Henry. Throughout the courses, I gained essential knowledge about the structure and manipulation of relational databases. I learned to design tables, perform queries to retrieve and manipulate data, and use clauses like JOIN and WHERE to combine information from multiple tables. Additionally, I mastered managing data integrity through constraints and creating stored procedures and functions to enhance data handling efficiency. These skills have enabled me to work with databases effectively and execute complex queries to extract relevant information in various projects and applications",
+      "I learned SQL during these two bootcamps, at Egg Academy and Henry. Throughout the courses, I gained essential knowledge about the structure and manipulation of relational databases. I learned to design tables, perform queries to retrieve and manipulate data, and use clauses like JOIN and WHERE to combine information from multiple tables. Additionally, I mastered managing data integrity through constraints and creating stored procedures and functions to enhance data handling efficiency.",
   },
   {
     title: "MySQL",
