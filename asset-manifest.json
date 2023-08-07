@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio2023-FedericoAsaad/static/css/main.909a6511.css",
+    "main.css": "/Portfolio2023-FedericoAsaad/static/css/main.d43b27a5.css",
     "main.js": "/Portfolio2023-FedericoAsaad/static/js/main.25627378.js",
     "static/js/787.28cb0dcd.chunk.js": "/Portfolio2023-FedericoAsaad/static/js/787.28cb0dcd.chunk.js",
     "static/media/rickAndMorty.png": "/Portfolio2023-FedericoAsaad/static/media/rickAndMorty.cde1df8fc2acd91f5062.png",
@@ -19,12 +19,12 @@
     "static/media/whatsapp.png": "/Portfolio2023-FedericoAsaad/static/media/whatsapp.ab342337b1431f858e39.png",
     "static/media/slack.png": "/Portfolio2023-FedericoAsaad/static/media/slack.9b560e44333cd79138e3.png",
     "index.html": "/Portfolio2023-FedericoAsaad/index.html",
-    "main.909a6511.css.map": "/Portfolio2023-FedericoAsaad/static/css/main.909a6511.css.map",
+    "main.d43b27a5.css.map": "/Portfolio2023-FedericoAsaad/static/css/main.d43b27a5.css.map",
     "main.25627378.js.map": "/Portfolio2023-FedericoAsaad/static/js/main.25627378.js.map",
     "787.28cb0dcd.chunk.js.map": "/Portfolio2023-FedericoAsaad/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.909a6511.css",
+    "static/css/main.d43b27a5.css",
     "static/js/main.25627378.js"
   ]
 }
