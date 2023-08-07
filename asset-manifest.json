@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Portfolio2023-FedericoAsaad/static/css/main.548969c8.css",
+    "main.js": "/Portfolio2023-FedericoAsaad/static/js/main.25627378.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Portfolio2023-FedericoAsaad/static/js/787.28cb0dcd.chunk.js",
+    "static/media/rickAndMorty.png": "/Portfolio2023-FedericoAsaad/static/media/rickAndMorty.cde1df8fc2acd91f5062.png",
+    "static/media/the-wavepf.png": "/Portfolio2023-FedericoAsaad/static/media/the-wavepf.8060b3ec452f9f5b0615.png",
+    "static/media/pi-food.png": "/Portfolio2023-FedericoAsaad/static/media/pi-food.309b0a9f4565ecd5587c.png",
+    "static/media/libreria.png": "/Portfolio2023-FedericoAsaad/static/media/libreria.e86d9562f01a8fa113f0.png",
+    "static/media/findajob.png": "/Portfolio2023-FedericoAsaad/static/media/findajob.9f29eaae8dcafdaf7a0d.png",
+    "static/media/Hi.png": "/Portfolio2023-FedericoAsaad/static/media/Hi.7e40ee80e756e94f1e63.png",
+    "static/media/backgroung-main.png": "/Portfolio2023-FedericoAsaad/static/media/backgroung-main.301f5d79e6e5a3786aaa.png",
+    "static/media/Roboto-Black.ttf": "/Portfolio2023-FedericoAsaad/static/media/Roboto-Black.cf56c1b149d0a5e8d7c6.ttf",
+    "static/media/Mont-HeavyDEMO.otf": "/Portfolio2023-FedericoAsaad/static/media/Mont-HeavyDEMO.a1c041a8d8e27fc771db.otf",
+    "static/media/logo-dev.png": "/Portfolio2023-FedericoAsaad/static/media/logo-dev.317bac37ad9def877c23.png",
+    "static/media/CV-FEDERICO-ASAAD-FULL-STACK-DEVELOPER-ENGLISH.pdf": "/Portfolio2023-FedericoAsaad/static/media/CV-FEDERICO-ASAAD-FULL-STACK-DEVELOPER-ENGLISH.d02bb5a8c33f4c8ed7c2.pdf",
+    "static/media/img-me.png": "/Portfolio2023-FedericoAsaad/static/media/img-me.66237e114bfe465b9063.png",
+    "static/media/corelDraw.png": "/Portfolio2023-FedericoAsaad/static/media/corelDraw.179a1fdd7cddae3fd507.png",
+    "static/media/whatsapp.png": "/Portfolio2023-FedericoAsaad/static/media/whatsapp.ab342337b1431f858e39.png",
+    "static/media/slack.png": "/Portfolio2023-FedericoAsaad/static/media/slack.9b560e44333cd79138e3.png",
+    "index.html": "/Portfolio2023-FedericoAsaad/index.html",
+    "main.548969c8.css.map": "/Portfolio2023-FedericoAsaad/static/css/main.548969c8.css.map",
+    "main.25627378.js.map": "/Portfolio2023-FedericoAsaad/static/js/main.25627378.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Portfolio2023-FedericoAsaad/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.548969c8.css",
+    "static/js/main.25627378.js"
+  ]
+}
