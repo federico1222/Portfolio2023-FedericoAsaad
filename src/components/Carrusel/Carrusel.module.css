@@ -1,0 +1,30 @@
+.skillProject {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin: 8px;
+    max-width: 450px;
+}
+
+
+.nameSkill {
+    border: 1px solid rgba(71, 70, 70, 0.144);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width:726px) {
+    .skillProject {
+        max-width: 300px;
+    }
+}
+@media screen and (max-width:520px) {
+    .skillProject {
+        max-width: 200px;
+    }
+}

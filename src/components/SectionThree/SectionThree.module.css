@@ -1,0 +1,142 @@
+.containerSectionThree {
+    width: 95%;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    gap: 30px;
+    -webkit-box-shadow: 0px 10px 32px -8px rgba(0, 0, 0, 0.288);
+    -moz-box-shadow: 0px 10px 32px -8px rgba(0, 0, 0, 0.288);
+    box-shadow: 0px 10px 32px -8px rgba(0, 0, 0, 0.288);
+}
+
+.projectsOne {
+    width: 92%;
+    margin: auto;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 9px 6px 24px 1px rgba(20, 20, 20, 0.103);
+    display: flex;
+    animation: projectOne 1s ease-in-out 0s 1 normal backwards;
+}
+
+.projectsTwo {
+    width: 92%;
+    margin: auto;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 9px 6px 24px 1px rgba(20, 20, 20, 0.103);
+    display: flex;
+}
+
+.projectsOne h3 {
+    font-family: 'MontHeavyDEMO';
+    font-size: 1.70rem;
+    color: #3b3a3a;
+}
+
+.projectsTwo h3 {
+    font-family: 'MontHeavyDEMO';
+    font-size: 1.70rem;
+    color: #3b3a3a;
+}
+
+.infoProjects {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid rgba(71, 70, 70, 0.144);
+}
+
+.infoProjects button {
+    width: 200px;
+    margin-top: 8px;
+    padding: 18px 25px;
+    border-radius: 25px;
+    border: none;
+    background-image: linear-gradient(to right, #acfd965e, #adfd96);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 0px 10px 32px -8px rgba(0, 0, 0, 0.288);
+    -moz-box-shadow: 0px 10px 32px -8px rgba(0, 0, 0, 0.288);
+    box-shadow: 0px 10px 32px -8px rgba(0, 0, 0, 0.288);
+    cursor: pointer;
+}
+
+.imgAndSkills {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgAndSkills img {
+    width: 500px;
+}
+
+.infoProjects a {
+    text-decoration: none;
+    color: black;
+}
+
+@media (min-width: 100px) and (max-width: 1250px) {
+    .projectsOne {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .projectsTwo {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .infoProjects {
+        width: 90%;
+    }
+
+    @media screen and (max-width:567px) {
+        .projectsOne img {
+            width: 350px;
+        }
+
+        .projectsTwo img {
+            width: 350px;
+        }
+    }
+
+    @media screen and (max-width:400px) {
+        .projectsOne img {
+            width: 300px;
+        }
+
+        .projectsTwo img {
+            width: 300px;
+        }
+    }
+}
+
+@keyframes fadeInAnimation {
+	0% {
+		opacity: 0;
+		transform: rotate(-540deg) scale(0);
+	}
+
+	100% {
+		opacity: 1;
+		transform: rotate(0) scale(1);
+	}
+}
+
+.fadeIn {
+    animation: fadeInAnimation 2s ease;
+  }

@@ -1,0 +1,65 @@
+.redSocial {
+  position: relative;
+  margin: auto;
+  width: 92%;
+  padding: 20px;
+  top: 60px;
+  border-radius: 15px;
+  background-color: #ffff;
+  -webkit-box-shadow: 0px 10px 32px -8px rgba(0, 0, 0, 0.288);
+  -moz-box-shadow: 0px 10px 32px -8px rgba(0, 0, 0, 0.288);
+  box-shadow: 0px 10px 32px -8px rgba(0, 0, 0, 0.288);
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  animation: linkContactAnimation 1s ease-in-out 1s 1 normal forwards;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social img {
+  width: 90px;
+}
+
+.social img:hover {
+  transform: scale(1.07);
+  cursor: pointer;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+    transform: translateX(250px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fadeIn {
+  animation: fadeInAnimation 2s ease;
+}
+
+@media (min-width: 100px) and (max-width: 700px) {
+  .redSocial {
+    width: 97%;
+    top: 40px;
+  }
+
+  .social img {
+    width: 50px;
+  }
+
+  @media screen and (max-width:450px) {
+    .social img {
+      width: 40px;
+    }
+  }
+
+}
