@@ -199,6 +199,10 @@
 }
 
 @media screen and (max-width:600px) {
+
+    .buttonExpand {
+        display: none;
+    }
     .sectionTwo {
         padding: 5px;
     }
